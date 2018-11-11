@@ -1,0 +1,34 @@
+a
+  text-decoration: none
+  color: #000
+
+.el-submenu__title
+  font-size: 18px
+.el-menu-item
+  min-width: 180px !important
+
+  /* 修复sidebar的bug */
+.el-menu--collapse
+  .el-submenu>.el-submenu__title
+    .el-submenu__icon-arrow
+    span
+      display: none
+      visibility: hidden
+
+.common
+  .el-input__inner
+    background: transparent
+    border: 0
+    -webkit-appearance: none
+    border-radius: 0
+    color: #eee
+    caret-color: #fff
+    height: 50px
+  .el-upload-list--picture-card,
+  .el-upload--picture-card,
+  .el-upload-list__item
+    height: 74px
+    width: 74px
+    line-height: 73px
+.question
+  white-space: normal

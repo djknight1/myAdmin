@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    this is review
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'ReviewGeneral'
 }
 </script>
 
-<style lang="stylus">
+<style scoped>
 
 </style>

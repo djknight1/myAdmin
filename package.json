@@ -8,10 +8,21 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.4.8",
+    "file-saver": "^2.0.0-rc.4",
+    "font-awesome": "^4.7.0",
+    "form-data": "^2.3.3",
+    "js-xlsx": "^0.8.22",
+    "mockjs": "^1.0.1-beta3",
+    "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
+    "simplemde": "^1.11.2",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "xlsx": "^0.14.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
@@ -19,8 +30,10 @@
     "@vue/cli-plugin-pwa": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "@vue/eslint-config-standard": "^3.0.5",
+    "script-loader": "^0.7.2",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "webpack-cli": "^3.1.2"
   }
 }
